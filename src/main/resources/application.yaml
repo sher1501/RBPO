@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mutalibov
+  datasource:
+    url: jdbc:postgresql://localhost:5432/data
+    username: ${JDBC_USERNAME}
+    password: ${JDBC_PASSWORD}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: MutalibovSherozzhon1BIB22803
+  expiration: 3600000
